@@ -15,7 +15,7 @@ class App extends React.Component {
                     <Route exact path={homeUrl} component={HomePage}/>
                     <Route exact path={howItWorks} component={HowItWorksPage}/>
                     <Route exact path={signIn} component={SignInPage}/>
-                    {/*<Route exact path={signUp} component={SignUpPage}/>*/}
+                    <Route exact path={signUp} component={SignUpPage}/>
                     <Redirect to={homeUrl}/>
                 </Switch>
             </React.Fragment>
