@@ -1,20 +1,20 @@
 import React, {Component} from "react";
 import {Footer, Hero, NavBar} from "../../components";
 
-import {homePageData} from "../../helpers/heroData";
 import {primaryNavBar} from "../../helpers/navBarData";
+import {howItWorksPageData} from "../../helpers/heroData";
 
 
-class HomePage extends Component {
+class HowItWorksPage extends Component {
     render() {
         return (
             <React.Fragment>
                 <NavBar style={primaryNavBar}/>
-                {homePageData.map((data, index) => <Hero key={index} data={data}/> )}
+                {howItWorksPageData.map((data, index) => <Hero key={index} data={data}/>)}
                 <Footer/>
             </React.Fragment>
         );
     }
 }
 
-export default HomePage;
+export default HowItWorksPage;

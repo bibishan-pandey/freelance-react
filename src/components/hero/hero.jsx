@@ -2,9 +2,9 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
-const Hero = ({isOrderFirst, isImage, data}) => {
+const Hero = ({data}) => {
+    const {isOrderFirst, isImage, header, subHeaders, video, media, mediaAlt, buttons, error} = data;
     const order = isOrderFirst ? 'order-first' : 'order-last';
-    const {header, subHeaders, video, media, mediaAlt, buttons, error} = data;
     return (
         <React.Fragment>
             <Container fluid className={'pt-5 pb-5'}>

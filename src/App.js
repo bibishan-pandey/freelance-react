@@ -1,7 +1,9 @@
 import React from 'react';
 import {Redirect, Route, Switch} from "react-router-dom";
 
-import {HomePage} from "./pages";
+import {howItWorks} from "./helpers/urls";
+
+import {HomePage, HowItWorksPage} from "./pages";
 
 import './App.css';
 
@@ -11,6 +13,7 @@ class App extends React.Component {
             <React.Fragment>
                 <Switch>
                     <Route exact path={'/'} component={HomePage}/>
+                    <Route exact path={howItWorks} component={HowItWorksPage}/>
                     <Redirect to={'/'}/>
                 </Switch>
             </React.Fragment>
