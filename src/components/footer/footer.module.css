@@ -1,0 +1,55 @@
+.bgGrayDark {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(132,132,217,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.contextDark, .footerClassic a, .footerClassic a:focus, .footerClassic a:active {
+    color: #ffffff;
+}
+
+.navList li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.navList li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socialInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.socialContainer .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navList li a:before {
+    content: "\2014 \00A0";
+    font: 400 21px/1 "Material Design Icons";
+    color: #e7e7e7;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}

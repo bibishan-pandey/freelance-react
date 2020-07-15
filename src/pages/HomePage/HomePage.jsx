@@ -1,13 +1,14 @@
 import React, {Component} from "react";
-import {NavBar} from "../../components";
+import {Footer, NavBar} from "../../components";
 
 class HomePage extends Component {
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <NavBar/>
-                <h1>Homepage</h1>
-            </div>
+                <h1 className={'pt-5 pb-5'}>Homepage</h1>
+                <Footer/>
+            </React.Fragment>
         );
     }
 }

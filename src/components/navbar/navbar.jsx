@@ -7,7 +7,7 @@ import {navBarLogo} from "../../assets";
 
 const NavBar = () => {
     return (
-        <Navbar bg="white" className={'shadow-sm mb-5'} expand="md">
+        <Navbar bg="white" className={'shadow-sm'} expand="md">
             <Container fluid>
                 <NavLink to={homeUrl} className={'navbar-brand'}>
                     <img src={navBarLogo} className="img-fluid" width="150px"
