@@ -2,7 +2,7 @@ import React from "react";
 import FormComponent from "../../helpers/FormComponent";
 import {CustomForm, Footer, NavBar} from "../../components";
 
-import {primaryNavBar} from "../../helpers/navBarData";
+import {loggedOutNavBar} from "../../helpers/navBarData";
 import {signUpFormData} from "../../helpers/formData";
 
 
@@ -19,7 +19,7 @@ class SignUpPage extends FormComponent {
         const {validated} = this.state;
         return (
             <React.Fragment>
-                <NavBar style={primaryNavBar}/>
+                <NavBar style={loggedOutNavBar}/>
                 <CustomForm validated={validated} formData={signUpFormData} onSubmit={this.handleSubmit}
                             onChange={this.handleChange}/>
                 <Footer/>

@@ -1,7 +1,7 @@
 import {navBarLogo} from "../assets";
-import {dashboard, howItWorks, signIn, signUp} from "./urls";
+import {browseProjects, dashboard, howItWorks, messages, signIn, signOut, signUp} from "./urls";
 
-export const primaryNavBar = {
+export const loggedOutNavBar = {
     variant: 'white',
     logo: navBarLogo,
     logoAlt: 'Freelance Nepal Logo',
@@ -29,6 +29,38 @@ export const primaryNavBar = {
             name: 'Dashboard',
             style: 'btn btn-outline-warning',
             icon: 'th',
+        },
+    ],
+}
+
+export const loggedInNavBar = {
+    variant: 'white',
+    logo: navBarLogo,
+    logoAlt: 'Freelance Nepal Logo',
+    urls: [
+        {
+            path: howItWorks,
+            name: 'How it works?',
+            style: 'nav-link',
+            icon: 'globe',
+        },
+        {
+            path: browseProjects,
+            name: 'Browse Projects',
+            style: 'nav-link',
+            icon: 'bar-chart',
+        },
+        {
+            path: messages,
+            name: 'Messages',
+            style: 'nav-link',
+            icon: 'comments-o',
+        },
+        {
+            path: signOut,
+            name: 'Sign Out',
+            style: 'btn btn-danger',
+            icon: 'sign-out',
         },
     ],
 }
