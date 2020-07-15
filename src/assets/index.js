@@ -1,0 +1,1 @@
+export {default as navBarLogo} from './images/freelancer-logo_red.png';

@@ -5,6 +5,8 @@ import {HomePage} from "./pages";
 
 import './App.css';
 
+//TODO: Add footer to homepage and components
+
 class App extends React.Component {
     render() {
         return (
