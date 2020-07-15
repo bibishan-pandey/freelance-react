@@ -1,12 +1,17 @@
 import React, {Component} from "react";
-import {Footer, NavBar} from "../../components";
+import {Footer, Hero, NavBar} from "../../components";
+
+import {homePageImageHeroData, homePageVideoHeroData} from "../../helpers/heroData";
+import {primaryNavBar} from "../../helpers/navBarData";
+
 
 class HomePage extends Component {
     render() {
         return (
             <React.Fragment>
-                <NavBar/>
-                <h1 className={'pt-5 pb-5'}>Homepage</h1>
+                <NavBar style={primaryNavBar}/>
+                <Hero isOrderFirst={false} isImage={true} data={homePageImageHeroData}/>
+                <Hero isOrderFirst={false} isImage={false} data={homePageVideoHeroData}/>
                 <Footer/>
             </React.Fragment>
         );

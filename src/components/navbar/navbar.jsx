@@ -2,26 +2,25 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import {Container, Nav, Navbar} from "react-bootstrap";
 
-import {dashboard, homeUrl, howItWorks, signIn, signUp} from '../../helpers/urls';
-import {navBarLogo} from "../../assets";
+import {homeUrl} from '../../helpers/urls';
 
-const NavBar = () => {
+
+const NavBar = ({style}) => {
+    const {variant, logo, logoAlt, urls} = style;
+
     return (
-        <Navbar bg="white" className={'shadow-sm'} expand="md">
+        <Navbar bg={variant} className={'shadow-sm'} expand="md">
             <Container fluid>
-                <NavLink to={homeUrl} className={'navbar-brand'}>
-                    <img src={navBarLogo} className="img-fluid" width="150px"
-                         alt="Freelance Nepal Logo"/>
-                </NavLink>
+                {logo && <NavLink to={homeUrl} className={'navbar-brand'}>
+                    <img src={logo} className="img-fluid" width="160px"
+                         alt={logoAlt}/>
+                </NavLink>}
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <NavLink to={howItWorks} className="nav-link"><i className="fa fa-globe"/> How it
-                            works?</NavLink>
-                        <NavLink to={signIn} className="nav-link"><i className="fa fa-sign-in"/> Sign In</NavLink>
-                        <NavLink to={signUp} className="nav-link"><i className="fa fa-plus-square-o"/> Sign
-                            Up</NavLink>
-                        <NavLink to={dashboard} className="btn btn-outline-warning">Go To Dashboard</NavLink>
+                        {urls.map((item, index) => <NavLink key={index} to={item.path} className={item.style}>
+                            <i className={`fa fa-${item.icon}`}/> {item.name}
+                        </NavLink>)}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
