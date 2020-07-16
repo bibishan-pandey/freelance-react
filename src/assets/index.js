@@ -9,3 +9,4 @@ export {default as iWantToWork_3} from './images/iwanttowork-3.png';
 export {default as avatarFemale} from './images/avatar-female.png';
 export {default as avatarMale} from './images/avatar-male.png';
 export {default as bivishanProfile} from './images/bivishan.jpg';
+export {default as flag} from './images/country.png';

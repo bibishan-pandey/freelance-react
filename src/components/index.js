@@ -6,7 +6,4 @@ export {default as Projects} from './projects/projects';
 export {default as SkillsBadge} from './skillsBadge/skillsBadge';
 export {default as SideProfile} from './sideProfile/sideProfile';
 export {default as SideInfo} from './sideInfo/sideInfo';
-
-
-// profile data
-// const {image, imageAlt, userName, name, designation, accountType, certified, completedProjects, postedProjects, budgetLabel, budget, location, projects, skills} = data;
+export {default as ProfileCard} from './profileCard/profileCard';

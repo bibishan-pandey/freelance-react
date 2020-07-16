@@ -1,4 +1,4 @@
-import {avatarFemale, avatarMale, bivishanProfile} from "../assets";
+import {avatarFemale, avatarMale, bivishanProfile, flag} from "../assets";
 
 
 export const projectsData = [
@@ -119,10 +119,10 @@ export const profileData = {
     name: 'Bibishan Pandey',
     designation: 'Software Engineer',
     accountType: 'Freelancer',
-    certified: true,
+    certified: 'Certified Account',
     completedProjects: 342,
     postedProjects: 58,
-    budgetLabel: 'USD/Hour',
+    flag: flag,
     budget: 5,
     location: 'Kathmandu, Nepal',
     projects: projectsData,
