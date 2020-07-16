@@ -51,12 +51,6 @@ export const loggedInNavBar = {
     position: 'ml-auto',
     urls: [
         {
-            path: howItWorks,
-            name: 'How it works?',
-            style: 'nav-link',
-            icon: 'globe',
-        },
-        {
             path: browseProjects,
             name: 'Browse Projects',
             style: 'nav-link',

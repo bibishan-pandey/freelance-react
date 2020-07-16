@@ -6,7 +6,7 @@ import {
     dashboard,
     freelancers,
     homeUrl,
-    howItWorks,
+    howItWorks, messages,
     postProject,
     profile,
     signIn,
@@ -17,7 +17,7 @@ import {
     BrowseProjects,
     Dashboard, Freelancers,
     HomePage,
-    HowItWorksPage,
+    HowItWorksPage, Messages,
     PostProject,
     Profile,
     SignInPage,
@@ -40,6 +40,7 @@ class App extends React.Component {
                     <Route exact path={profile} component={Profile}/>
                     <Route exact path={browseProjects} component={BrowseProjects}/>
                     <Route exact path={freelancers} component={Freelancers}/>
+                    <Route exact path={messages} component={Messages}/>
                     <Redirect to={homeUrl}/>
                 </Switch>
             </React.Fragment>

@@ -7,3 +7,4 @@ export {default as PostProject} from './PostProject/PostProject';
 export {default as Profile} from './Profile/Profile';
 export {default as BrowseProjects} from './BrowseProjects/BrowseProjects';
 export {default as Freelancers} from './Freelancers/Freelancers';
+export {default as Messages} from './Message/Message';

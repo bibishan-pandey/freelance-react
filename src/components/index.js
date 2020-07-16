@@ -7,3 +7,4 @@ export {default as SkillsBadge} from './skillsBadge/skillsBadge';
 export {default as SideProfile} from './sideProfile/sideProfile';
 export {default as SideInfo} from './sideInfo/sideInfo';
 export {default as ProfileCard} from './profileCard/profileCard';
+export {default as MessageComponent} from './messages/messages';
