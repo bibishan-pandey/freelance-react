@@ -2,7 +2,7 @@
   "name": "freelance-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bibishan-pandey.github.io/freelance-react",
+  "homepage": "https://bibishan-pandey.github.io/freelance-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,9 +10,7 @@
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^3.1.0",
-    "prop-types": "^15.7.2",
     "react": "^16.13.1",
-    "react-animation-components": "^3.0.0",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
