@@ -1,9 +1,9 @@
 import React from 'react';
 import {Redirect, Route, Switch} from "react-router-dom";
 
-import {homeUrl, howItWorks, signIn, signUp} from "./helpers/urls";
+import {dashboard, homeUrl, howItWorks, signIn, signUp} from "./helpers/urls";
 
-import {HomePage, HowItWorksPage, SignInPage, SignUpPage} from "./pages";
+import {Dashboard, HomePage, HowItWorksPage, SignInPage, SignUpPage} from "./pages";
 
 import './App.css';
 
@@ -16,6 +16,7 @@ class App extends React.Component {
                     <Route exact path={howItWorks} component={HowItWorksPage}/>
                     <Route exact path={signIn} component={SignInPage}/>
                     <Route exact path={signUp} component={SignUpPage}/>
+                    <Route exact path={dashboard} component={Dashboard}/>
                     <Redirect to={homeUrl}/>
                 </Switch>
             </React.Fragment>

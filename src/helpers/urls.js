@@ -10,3 +10,6 @@ export const postProject = '/postProject';
 export const browseJobs = '/browseJobs';
 export const browseProjects = '/browseProjects';
 export const messages = '/messages';
+export const profile = '/profile';
+export const myProjects = '/myProjects';
+export const freelancers = '/freelancers';

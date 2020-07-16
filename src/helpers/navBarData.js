@@ -1,10 +1,22 @@
 import {navBarLogo} from "../assets";
-import {browseProjects, dashboard, howItWorks, messages, signIn, signOut, signUp} from "./urls";
+import {
+    browseProjects,
+    dashboard, freelancers,
+    howItWorks,
+    messages,
+    myProjects,
+    postProject,
+    profile,
+    signIn,
+    signOut,
+    signUp
+} from "./urls";
 
 export const loggedOutNavBar = {
     variant: 'white',
     logo: navBarLogo,
     logoAlt: 'Freelance Nepal Logo',
+    position: 'ml-auto',
     urls: [
         {
             path: howItWorks,
@@ -31,12 +43,13 @@ export const loggedOutNavBar = {
             icon: 'th',
         },
     ],
-}
+};
 
 export const loggedInNavBar = {
     variant: 'white',
     logo: navBarLogo,
     logoAlt: 'Freelance Nepal Logo',
+    position: 'ml-auto',
     urls: [
         {
             path: howItWorks,
@@ -63,4 +76,43 @@ export const loggedInNavBar = {
             icon: 'sign-out',
         },
     ],
-}
+};
+
+export const secondaryNavBar = {
+    variant: 'warning',
+    logo: '',
+    logoAlt: '',
+    position: 'mr-auto',
+    urls: [
+        {
+            path: postProject,
+            name: 'Post a Project',
+            style: 'btn btn-info shadow-lg rounded',
+            icon: 'envelope-open-o',
+        },
+        {
+            path: dashboard,
+            name: 'Dashboard',
+            style: 'nav-link',
+            icon: 'home',
+        },
+        {
+            path: profile,
+            name: 'Profile',
+            style: 'nav-link',
+            icon: 'user-circle',
+        },
+        {
+            path: myProjects,
+            name: 'My Projects',
+            style: 'nav-link',
+            icon: 'file-code-o',
+        },
+        {
+            path: freelancers,
+            name: 'Find Freelancers',
+            style: 'nav-link',
+            icon: 'search',
+        },
+    ],
+};

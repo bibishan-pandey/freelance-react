@@ -6,3 +6,5 @@ export {default as iWantToHire_2} from './images/iwanttohire-2.png';
 export {default as iWantToWork_1} from './images/iwanttowork-1.png';
 export {default as iWantToWork_2} from './images/iwanttowork-2.png';
 export {default as iWantToWork_3} from './images/iwanttowork-3.png';
+export {default as avatarFemale} from './images/avatar-female.png';
+export {default as avatarMale} from './images/avatar-male.png';

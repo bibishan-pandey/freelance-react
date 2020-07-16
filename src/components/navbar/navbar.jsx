@@ -6,7 +6,7 @@ import {homeUrl} from '../../helpers/urls';
 
 
 const NavBar = ({style}) => {
-    const {variant, logo, logoAlt, urls} = style;
+    const {variant, logo, logoAlt, position, urls} = style;
 
     return (
         <Navbar bg={variant} className={'shadow-sm'} expand="md">
@@ -17,7 +17,7 @@ const NavBar = ({style}) => {
                 </NavLink>}
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
+                    <Nav className={position}>
                         {urls.map((item, index) => <NavLink key={index} to={item.path} className={item.style}>
                             <i className={`fa fa-${item.icon}`}/> {item.name}
                         </NavLink>)}
