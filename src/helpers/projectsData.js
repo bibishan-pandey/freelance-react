@@ -1,6 +1,43 @@
-import {avatarFemale, avatarMale} from "../assets";
+import {avatarFemale, avatarMale, bivishanProfile} from "../assets";
+
 
 export const projectsData = [
+    {
+        image: avatarMale,
+        imageAlt: 'Bidhya Sharm',
+        userName: '@bidhyansharma',
+        name: 'Bidhya Sharma',
+        budgetLabel: 'Received Budget: ',
+        budget: '2,200',
+        projectTitle: 'Project Title',
+        projectDescription: 'Project Description',
+        skills: [
+            {
+                variant: 'primary',
+                name: 'JavaScript',
+            },
+            {
+                variant: 'success',
+                name: 'Python',
+            },
+            {
+                variant: 'danger',
+                name: 'ReactJS',
+            },
+            {
+                variant: 'secondary',
+                name: 'PostgreSQL',
+            },
+            {
+                variant: 'warning',
+                name: 'Django',
+            },
+            {
+                variant: 'info',
+                name: 'REST',
+            },
+        ],
+    },
     {
         image: avatarFemale,
         imageAlt: 'Bhumika Koirala',
@@ -74,3 +111,45 @@ export const projectsData = [
         ],
     }
 ];
+
+export const profileData = {
+    image: bivishanProfile,
+    imageAlt: 'Bibishan Pandey',
+    userName: '@bibishanpandey',
+    name: 'Bibishan Pandey',
+    designation: 'Software Engineer',
+    accountType: 'Freelancer',
+    certified: true,
+    completedProjects: 342,
+    postedProjects: 58,
+    budgetLabel: 'USD/Hour',
+    budget: 5,
+    location: 'Kathmandu, Nepal',
+    projects: projectsData,
+    skills: [
+        {
+            variant: 'primary',
+            name: 'JavaScript',
+        },
+        {
+            variant: 'success',
+            name: 'NodeJS',
+        },
+        {
+            variant: 'danger',
+            name: 'ReactJS',
+        },
+        {
+            variant: 'secondary',
+            name: 'MongoDB',
+        },
+        {
+            variant: 'warning',
+            name: 'Express',
+        },
+        {
+            variant: 'info',
+            name: 'GraphQL',
+        },
+    ],
+};

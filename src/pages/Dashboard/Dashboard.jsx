@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import {Container, Row} from "react-bootstrap";
-import {Footer, NavBar, Projects} from "../../components";
+import {Footer, NavBar, Projects, SideProfile} from "../../components";
 
 import {loggedInNavBar, secondaryNavBar} from "../../helpers/navBarData";
-import {projectsData} from "../../helpers/projectsData";
+import {profileData, projectsData} from "../../helpers/projectsData";
 
 
 class Dashboard extends Component {
@@ -14,7 +14,7 @@ class Dashboard extends Component {
                 <NavBar style={secondaryNavBar}/>
                 <Container fluid className={'pt-5 pb-5'}>
                     <Row>
-
+                        <SideProfile data={profileData}/>
                         {projectsData.map((data, index) => <Projects key={index} data={data}/>)}
                     </Row>
                 </Container>
