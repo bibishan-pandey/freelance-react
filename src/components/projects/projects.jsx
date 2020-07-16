@@ -1,5 +1,4 @@
 import React from "react";
-import {Col} from "react-bootstrap";
 import {SkillsBadge} from "../index";
 
 const Projects = ({data}) => {
@@ -7,31 +6,29 @@ const Projects = ({data}) => {
 
     return (
         <React.Fragment>
-            <Col sm={12} md={6} className={'order-md-second'}>
-                <div className="card mb-5">
-                    <div className="card-header">
+            <div className="card mb-5">
+                <div className="card-header">
+                    <div className="d-flex justify-content-between align-items-center">
                         <div className="d-flex justify-content-between align-items-center">
-                            <div className="d-flex justify-content-between align-items-center">
-                                <div className="mr-2">
-                                    <img className="rounded-circle img-fluid" width="45" src={image} alt={imageAlt}/>
-                                </div>
-                                <div className="ml-2">
-                                    <div className="h5 m-0 font-italic">{userName}</div>
-                                    <div className="text-muted">{name}</div>
-                                </div>
+                            <div className="mr-2">
+                                <img className="rounded-circle img-fluid" width="45" src={image} alt={imageAlt}/>
+                            </div>
+                            <div className="ml-2">
+                                <div className="h5 m-0 font-italic">{userName}</div>
+                                <div className="text-muted">{name}</div>
                             </div>
                         </div>
                     </div>
-                    <div className="card-body">
-                        <div className="text-muted mb-2">{budgetLabel}<i className="fa fa-dollar">{budget}</i></div>
-                        <a className="card-link" href="#">
-                            <h5 className="card-title text-danger">{projectTitle}</h5>
-                        </a>
-                        <p className="card-text">{projectDescription}</p>
-                        {skills.map((skill, index) => <SkillsBadge key={index} skill={skill}/>)}
-                    </div>
                 </div>
-            </Col>
+                <div className="card-body">
+                    <div className="text-muted mb-2">{budgetLabel}<i className="fa fa-dollar">{budget}</i></div>
+                    <button className="card-link btn btn-transparent p-0">
+                        <h5 className="card-title text-danger">{projectTitle}</h5>
+                    </button>
+                    <p className="card-text">{projectDescription}</p>
+                    {skills.map((skill, index) => <SkillsBadge key={index} skill={skill}/>)}
+                </div>
+            </div>
         </React.Fragment>
     );
 };
