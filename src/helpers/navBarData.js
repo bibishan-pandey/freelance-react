@@ -4,7 +4,6 @@ import {
     dashboard, freelancers,
     howItWorks,
     messages,
-    myProjects,
     postProject,
     profile,
     signIn,
@@ -101,12 +100,6 @@ export const secondaryNavBar = {
             name: 'Profile',
             style: 'nav-link',
             icon: 'user-circle',
-        },
-        {
-            path: myProjects,
-            name: 'My Projects',
-            style: 'nav-link',
-            icon: 'file-code-o',
         },
         {
             path: freelancers,
