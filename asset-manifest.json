@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/freelance-react/static/css/main.a265fff5.chunk.css",
+    "main.js": "/freelance-react/static/js/main.c93d8332.chunk.js",
+    "main.js.map": "/freelance-react/static/js/main.c93d8332.chunk.js.map",
+    "runtime-main.js": "/freelance-react/static/js/runtime-main.411823bf.js",
+    "runtime-main.js.map": "/freelance-react/static/js/runtime-main.411823bf.js.map",
+    "static/css/2.2446d6d5.chunk.css": "/freelance-react/static/css/2.2446d6d5.chunk.css",
+    "static/js/2.31ea794c.chunk.js": "/freelance-react/static/js/2.31ea794c.chunk.js",
+    "static/js/2.31ea794c.chunk.js.map": "/freelance-react/static/js/2.31ea794c.chunk.js.map",
+    "index.html": "/freelance-react/index.html",
+    "precache-manifest.3be10f001b6c251011665e5a760361d4.js": "/freelance-react/precache-manifest.3be10f001b6c251011665e5a760361d4.js",
+    "service-worker.js": "/freelance-react/service-worker.js",
+    "static/css/2.2446d6d5.chunk.css.map": "/freelance-react/static/css/2.2446d6d5.chunk.css.map",
+    "static/css/main.a265fff5.chunk.css.map": "/freelance-react/static/css/main.a265fff5.chunk.css.map",
+    "static/js/2.31ea794c.chunk.js.LICENSE.txt": "/freelance-react/static/js/2.31ea794c.chunk.js.LICENSE.txt",
+    "static/media/avatar-female.png": "/freelance-react/static/media/avatar-female.671e58ad.png",
+    "static/media/avatar-male.png": "/freelance-react/static/media/avatar-male.3c9e1e03.png",
+    "static/media/background.jpg": "/freelance-react/static/media/background.37507abc.jpg",
+    "static/media/bird_red.png": "/freelance-react/static/media/bird_red.fa9a946b.png",
+    "static/media/bivishan.jpg": "/freelance-react/static/media/bivishan.a004ed37.jpg",
+    "static/media/font-awesome.min.css": "/freelance-react/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/freelancer-logo_red.png": "/freelance-react/static/media/freelancer-logo_red.49e5e85d.png",
+    "static/media/iwanttohire-1.png": "/freelance-react/static/media/iwanttohire-1.72359494.png",
+    "static/media/iwanttohire-2.png": "/freelance-react/static/media/iwanttohire-2.c433ccda.png",
+    "static/media/iwanttowork-1.png": "/freelance-react/static/media/iwanttowork-1.3a2ec70b.png",
+    "static/media/iwanttowork-2.png": "/freelance-react/static/media/iwanttowork-2.cf7641ca.png",
+    "static/media/iwanttowork-3.png": "/freelance-react/static/media/iwanttowork-3.fb581158.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.411823bf.js",
+    "static/css/2.2446d6d5.chunk.css",
+    "static/js/2.31ea794c.chunk.js",
+    "static/css/main.a265fff5.chunk.css",
+    "static/js/main.c93d8332.chunk.js"
+  ]
+}
