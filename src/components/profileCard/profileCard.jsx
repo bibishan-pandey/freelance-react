@@ -3,13 +3,13 @@ import {Col, Row} from "react-bootstrap";
 
 import styles from './profileCard.module.css';
 
-const ProfileCard = ({data}) => {
+const ProfileCard = ({data, variant}) => {
     const {image, imageAlt, userName, name, designation, flag, certified, budget, location} = data;
 
     return (
         <React.Fragment>
             <Col sm={12} md={6} className={'mb-5 order-sm-last'}>
-                <Row className={`bg-info shadow-lg text-white pt-4 pb-4 ${styles.fillContent}`}>
+                <Row className={`bg-${variant} shadow-lg text-white pt-4 pb-4 ${styles.fillContent}`}>
                     <Col xs={3} sm={3} className="order-sm-first">
                         <img className="rounded img-fluid" width="200" src={image} alt={imageAlt}/>
                     </Col>

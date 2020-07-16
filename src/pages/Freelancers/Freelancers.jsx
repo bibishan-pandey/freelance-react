@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {Container, Row} from "react-bootstrap";
-import {Footer, NavBar, ProfileCard, SideInfo, SideProfile} from "../../components";
+import {Footer, NavBar, ProfileCard} from "../../components";
 
 import {loggedInNavBar, secondaryNavBar} from "../../helpers/navBarData";
-import {profileData} from "../../helpers/projectsProfileData";
+import {freelancersData} from "../../helpers/freelancersData";
 
 
-class Profile extends Component {
+class Freelancers extends Component {
     render() {
         return (
             <React.Fragment>
@@ -14,9 +14,7 @@ class Profile extends Component {
                 <NavBar style={secondaryNavBar}/>
                 <Container fluid className={'pt-5'}>
                     <Row>
-                        <SideProfile data={profileData}/>
-                        <ProfileCard variant={'info'} data={profileData}/>
-                        <SideInfo/>
+                        {freelancersData.map((data, index) => <ProfileCard key={index} variant={data.variant} data={data}/>)}
                     </Row>
                 </Container>
                 <Footer/>
@@ -25,4 +23,4 @@ class Profile extends Component {
     }
 }
 
-export default Profile;
+export default Freelancers;

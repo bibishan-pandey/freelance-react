@@ -1,11 +1,21 @@
 import React from 'react';
 import {Redirect, Route, Switch} from "react-router-dom";
 
-import {browseProjects, dashboard, homeUrl, howItWorks, postProject, profile, signIn, signUp} from "./helpers/urls";
+import {
+    browseProjects,
+    dashboard,
+    freelancers,
+    homeUrl,
+    howItWorks,
+    postProject,
+    profile,
+    signIn,
+    signUp
+} from "./helpers/urls";
 
 import {
     BrowseProjects,
-    Dashboard,
+    Dashboard, Freelancers,
     HomePage,
     HowItWorksPage,
     PostProject,
@@ -29,6 +39,7 @@ class App extends React.Component {
                     <Route exact path={postProject} component={PostProject}/>
                     <Route exact path={profile} component={Profile}/>
                     <Route exact path={browseProjects} component={BrowseProjects}/>
+                    <Route exact path={freelancers} component={Freelancers}/>
                     <Redirect to={homeUrl}/>
                 </Switch>
             </React.Fragment>

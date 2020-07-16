@@ -1,7 +1,7 @@
 import {avatarFemale, avatarMale, bivishanProfile, flag} from "../assets";
 
 
-export const projectsData = [
+export const projectsProfileData = [
     {
         image: avatarMale,
         imageAlt: 'Bidhya Sharm',
@@ -125,7 +125,7 @@ export const profileData = {
     flag: flag,
     budget: 5,
     location: 'Kathmandu, Nepal',
-    projects: projectsData,
+    projects: projectsProfileData,
     skills: [
         {
             variant: 'primary',

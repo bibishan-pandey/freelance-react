@@ -3,7 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import {Footer, NavBar, Projects, SideInfo, SideProfile} from "../../components";
 
 import {loggedInNavBar, secondaryNavBar} from "../../helpers/navBarData";
-import {profileData, projectsData} from "../../helpers/projectsData";
+import {profileData, projectsProfileData} from "../../helpers/projectsProfileData";
 
 
 class Dashboard extends Component {
@@ -12,11 +12,11 @@ class Dashboard extends Component {
             <React.Fragment>
                 <NavBar style={loggedInNavBar}/>
                 <NavBar style={secondaryNavBar}/>
-                <Container fluid className={'pt-5 pb-5'}>
+                <Container fluid className={'pt-5'}>
                     <Row>
                         <SideProfile data={profileData}/>
                         <Col sm={12} md={6} className={'order-sm-last order-md-second'}>
-                            {projectsData.map((data, index) => <Projects key={index} data={data}/>)}
+                            {projectsProfileData.map((data, index) => <Projects key={index} data={data}/>)}
                         </Col>
                         <SideInfo/>
                     </Row>
