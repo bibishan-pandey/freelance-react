@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/freelance-react/static/css/main.a265fff5.chunk.css",
-    "main.js": "/freelance-react/static/js/main.c93d8332.chunk.js",
-    "main.js.map": "/freelance-react/static/js/main.c93d8332.chunk.js.map",
+    "main.css": "/freelance-react/static/css/main.9c030bc8.chunk.css",
+    "main.js": "/freelance-react/static/js/main.31a2445c.chunk.js",
+    "main.js.map": "/freelance-react/static/js/main.31a2445c.chunk.js.map",
     "runtime-main.js": "/freelance-react/static/js/runtime-main.411823bf.js",
     "runtime-main.js.map": "/freelance-react/static/js/runtime-main.411823bf.js.map",
     "static/css/2.2446d6d5.chunk.css": "/freelance-react/static/css/2.2446d6d5.chunk.css",
-    "static/js/2.31ea794c.chunk.js": "/freelance-react/static/js/2.31ea794c.chunk.js",
-    "static/js/2.31ea794c.chunk.js.map": "/freelance-react/static/js/2.31ea794c.chunk.js.map",
+    "static/js/2.7f269fe7.chunk.js": "/freelance-react/static/js/2.7f269fe7.chunk.js",
+    "static/js/2.7f269fe7.chunk.js.map": "/freelance-react/static/js/2.7f269fe7.chunk.js.map",
     "index.html": "/freelance-react/index.html",
-    "precache-manifest.3be10f001b6c251011665e5a760361d4.js": "/freelance-react/precache-manifest.3be10f001b6c251011665e5a760361d4.js",
+    "precache-manifest.0bf0fc4891051f5de0e659560c5e7514.js": "/freelance-react/precache-manifest.0bf0fc4891051f5de0e659560c5e7514.js",
     "service-worker.js": "/freelance-react/service-worker.js",
     "static/css/2.2446d6d5.chunk.css.map": "/freelance-react/static/css/2.2446d6d5.chunk.css.map",
-    "static/css/main.a265fff5.chunk.css.map": "/freelance-react/static/css/main.a265fff5.chunk.css.map",
-    "static/js/2.31ea794c.chunk.js.LICENSE.txt": "/freelance-react/static/js/2.31ea794c.chunk.js.LICENSE.txt",
+    "static/css/main.9c030bc8.chunk.css.map": "/freelance-react/static/css/main.9c030bc8.chunk.css.map",
+    "static/js/2.7f269fe7.chunk.js.LICENSE.txt": "/freelance-react/static/js/2.7f269fe7.chunk.js.LICENSE.txt",
     "static/media/avatar-female.png": "/freelance-react/static/media/avatar-female.671e58ad.png",
     "static/media/avatar-male.png": "/freelance-react/static/media/avatar-male.3c9e1e03.png",
     "static/media/background.jpg": "/freelance-react/static/media/background.37507abc.jpg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.411823bf.js",
     "static/css/2.2446d6d5.chunk.css",
-    "static/js/2.31ea794c.chunk.js",
-    "static/css/main.a265fff5.chunk.css",
-    "static/js/main.c93d8332.chunk.js"
+    "static/js/2.7f269fe7.chunk.js",
+    "static/css/main.9c030bc8.chunk.css",
+    "static/js/main.31a2445c.chunk.js"
   ]
 }

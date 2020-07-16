@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5f2b09e88997c55a1764ee1e81d44ef",
+    "revision": "855ce985ffdd1ebd6d2a34b6a7c39b92",
     "url": "/freelance-react/index.html"
   },
   {
-    "revision": "38b1829f11c340a44f82",
+    "revision": "10d9a32c8dddb0e82072",
     "url": "/freelance-react/static/css/2.2446d6d5.chunk.css"
   },
   {
-    "revision": "f4b6637c36ad293e03b3",
-    "url": "/freelance-react/static/css/main.a265fff5.chunk.css"
+    "revision": "3f497109af3c9d8480fd",
+    "url": "/freelance-react/static/css/main.9c030bc8.chunk.css"
   },
   {
-    "revision": "38b1829f11c340a44f82",
-    "url": "/freelance-react/static/js/2.31ea794c.chunk.js"
+    "revision": "10d9a32c8dddb0e82072",
+    "url": "/freelance-react/static/js/2.7f269fe7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/freelance-react/static/js/2.31ea794c.chunk.js.LICENSE.txt"
+    "url": "/freelance-react/static/js/2.7f269fe7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4b6637c36ad293e03b3",
-    "url": "/freelance-react/static/js/main.c93d8332.chunk.js"
+    "revision": "3f497109af3c9d8480fd",
+    "url": "/freelance-react/static/js/main.31a2445c.chunk.js"
   },
   {
     "revision": "af46ce9c0994aa6ccede",
