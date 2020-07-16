@@ -2,7 +2,7 @@
   "name": "freelance-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bibishan-pandey.github.io/freelance-react/",
+  "homepage": "https://bibishan-pandey.github.io/freelance-react",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
